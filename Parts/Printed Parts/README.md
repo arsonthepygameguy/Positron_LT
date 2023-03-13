@@ -21,6 +21,7 @@
 | Layer height | Infill | Supports | Perimeters | Horizontal shells | 
 | --- | --- | --- | --- | --- |
 | 0.2mm | 40% Cubic, or Gyroid | On build plate only | 4 (min) | Top: 7, Bot: 7 |
+
 Note: This is with .5. With .4, use 5, 9, and 8.
 
 ## Printing:
