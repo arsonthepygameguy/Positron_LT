@@ -10,9 +10,9 @@
 
 | Type | Brand | Name | Price | Link | Required Nozzle |
 | --- | --- | --- | --- | --- | --- |
-| PC Blend | Prusament | Carbon Fiber | 59.99€ | [link](https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-800g-2/) | Hardened |
-| GreenTEC | extrudr | Pro Carbon | 49.99€ | [link](https://amzn.to/3ZJIYcK) | Hardened |
-| ASA | Prusament | Prusament ASA | 29.99€ | [link](https://www.prusa3d.com/category/prusament-asa/) | --- |
+| PC Blend | Prusament | Carbon Fiber | 59.99€ | [link](https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-800g-2/) | Hardened .5 |
+| GreenTEC | extrudr | Pro Carbon | 49.99€ | [link](https://amzn.to/3ZJIYcK) | Hardened .5 |
+| ASA | Prusament | Prusament ASA | 29.99€ | [link](https://www.prusa3d.com/category/prusament-asa/) | Any nozzle |
 
 > Note: Some links might be affiliate links!
 
@@ -20,7 +20,8 @@
 
 | Layer height | Infill | Supports | Perimeters | Horizontal shells | 
 | --- | --- | --- | --- | --- |
-| 0.2mm | 40% | On build plate only | 5 (min) | Top: 9, Bot: 8 |
+| 0.2mm | 40% Cubic, or Gyroid | On build plate only | 4 (min) | Top: 7, Bot: 7 |
+Note: This is with .5. With .4, use 5, 9, and 8.
 
 ## Printing:
 | Part Name | Orientation | Supports | Prepared |
@@ -32,7 +33,7 @@
 |[BASEPART_LEFT_V01](./STL/BASEPART_LEFT_V01.stl) | <img src="../../Gallery/Sliced/BASEPART_LEFT_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/BASEPART_LEFT_V01.jpg" width="300">|
 |[BASEPART_RIGHT_V01](./STL/BASEPART_RIGHT_V01.stl) | <img src="../../Gallery/Sliced/BASEPART_RIGHT_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/BASEPART_RIGHT_V01.jpg" width="300">|
 |[BEDHOLDER_CONNECTOR_V01](./STL/BEDHOLDER_CONNECTOR_V01.stl) | <img src="../../Gallery/Sliced/BEDHOLDER_CONNECTOR_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/BEDHOLDER_CONNECTOR_V01.jpg" width="300">|
-|[BED_HOLDER_MAIN_V01](./STL/BED_HOLDER_MAIN_V01.stl) | <img src="../../Gallery/Sliced/BED_HOLDER_MAIN_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/BED_HOLDER_MAIN_V01.jpg" width="300">|
+|[BED_HOLDER_MAIN_V01](./STL/BED_HOLDER_MAIN_V01.stl) | <img srcF="../../Gallery/Sliced/BED_HOLDER_MAIN_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/BED_HOLDER_MAIN_V01.jpg" width="300">|
 |[BELT-TENSIONER_Z_V01](./STL/BELT-TENSIONER_Z_V01.stl) | <img src="../../Gallery/Sliced/BELT-TENSIONER_Z_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/BELT-TENSIONER_Z_V01.jpg" width="300">|
 |[BELT_CONNECTOR_V01_WIP](./STL/BELT_CONNECTOR_V01_WIP.stl) | <img src="../../Gallery/Sliced/BELT_CONNECTOR_V01_WIP.png" width="300"> |  ---  | <img src="../../Gallery/Preped/BELT_CONNECTOR_V01_WIP.jpg" width="300">|
 |[BELT_TENSIONER_XY_V01](./STL/BELT_TENSIONER_XY_V01.stl) | <img src="../../Gallery/Sliced/BELT_TENSIONER_XY_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/BELT_TENSIONER_XY_V01.jpg" width="300">|
@@ -51,8 +52,8 @@
 |[SCREEN_BASE_V01_WIP](./STL/SCREEN_BASE_V01_WIP.stl) | <img src="../../Gallery/Sliced/SCREEN_BASE_V01_WIP.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/SCREEN_BASE_V01_WIP.jpg" width="300">|
 |[SCREEN_LID_V01_WIP](./STL/SCREEN_LID_V01_WIP.stl) | <img src="../../Gallery/Sliced/SCREEN_LID_V01_WIP.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/SCREEN_LID_V01_WIP.jpg" width="300">|
 |[SCREWMOUNT_BOTTOM_V01](./STL/SCREWMOUNT_BOTTOM_V01.stl) | <img src="../../Gallery/Sliced/SCREWMOUNT_BOTTOM_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/SCREWMOUNT_BOTTOM_V01.jpg" width="300">|
-|[SIDE_PANEL_LEFT_V01](./STL/SIDE_PANEL_LEFT_V01.stl) | <img src="../../Gallery/Sliced/SIDE_PANEL_LEFT_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/SIDE_PANEL_LEFT_V01.jpg" width="300">|
-|[SIDE_PANEL_RIGHT_V01](./STL/SIDE_PANEL_RIGHT_V01.stl) | <img src="../../Gallery/Sliced/SIDE_PANEL_RIGHT_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/SIDE_PANEL_RIGHT_V01.jpg" width="300">|
+|[SIDE_PANEL_LEFT_V01](./STL/SIDE_PANEL_LEFT_V01.stl) | <img src="../../Gallery/Sliced/SIDE_PANEL_LEFT_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/SIDE_PANEL_LEFT_V01.jpg" width="300" alt="Printed in alt color">|
+|[SIDE_PANEL_RIGHT_V01](./STL/SIDE_PANEL_RIGHT_V01.stl) | <img src="../../Gallery/Sliced/SIDE_PANEL_RIGHT_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/SIDE_PANEL_RIGHT_V01.jpg" width="300" alt="Printed in primary color">|
 |[X-RAIL_ENDCAP_V01](./STL/X-RAIL_ENDCAP_V01.stl) | <img src="../../Gallery/Sliced/X-RAIL_ENDCAP_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/X-RAIL_ENDCAP_V01.jpg" width="300">|
 |[XY-SPACER_V01](./STL/XY-SPACER_V01.stl) | <img src="../../Gallery/Sliced/XY-SPACER_V01.png" width="300"> |  No supports needed  | <img src="../../Gallery/Preped/XY-SPACER_V01.jpg" width="300">|
 |[Z-AXIS-ENDSTOP_V01](./STL/Z-AXIS-ENDSTOP_V01.stl) | <img src="../../Gallery/Sliced/Z-AXIS-ENDSTOP_V01.png" width="300"> |  Supports on build plate only  | <img src="../../Gallery/Preped/Z-AXIS-ENDSTOP_V01.jpg" width="300">|
