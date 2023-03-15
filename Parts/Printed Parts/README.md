@@ -10,8 +10,8 @@
 
 | Type | Brand | Name | Price | Link | Required Nozzle |
 | --- | --- | --- | --- | --- | --- |
-| PC Blend | Prusament | Carbon Fiber | 59.99€ | [link](https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-800g-2/) | Hardened .5 |
-| GreenTEC | extrudr | Pro Carbon | 49.99€ | [link](https://amzn.to/3ZJIYcK) | Hardened .5 |
+| PC Blend | Prusament | Carbon Fiber | 59.99€ | [link](https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-800g-2/) | Hardened .4 |
+| GreenTEC | extrudr | Pro Carbon | 49.99€ | [link](https://amzn.to/3ZJIYcK) | Hardened .4 |
 | ASA | Prusament | Prusament ASA | 29.99€ | [link](https://www.prusa3d.com/category/prusament-asa/) | Any nozzle |
 
 > Note: Some links might be affiliate links!
@@ -20,9 +20,7 @@
 
 | Layer height | Infill | Supports | Perimeters | Horizontal shells | 
 | --- | --- | --- | --- | --- |
-| 0.2mm | 40% Cubic, or Gyroid | On build plate only | 4 (min) | Top: 7, Bot: 7 |
-
-Note: This is with .5. With .4, use 5, 9, and 8.
+| 0.2mm | 40% Cubic, or Gyroid | On build plate only | 50 (min) | Top: 9, Bot: 8 |
 
 ## Printing:
 | Part Name | Orientation | Supports | Prepared |
